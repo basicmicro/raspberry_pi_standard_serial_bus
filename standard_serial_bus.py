@@ -33,7 +33,6 @@ if __name__ == "__main__":
         
         for pin in slave_select_pins:
 
-            print "Testing!"
             run_controller(pin, 94, 2)
             sleep(2)
     
