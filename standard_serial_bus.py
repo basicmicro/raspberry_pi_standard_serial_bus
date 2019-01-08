@@ -25,7 +25,7 @@ if __name__ == "__main__":
     
     #Configure GPIO
     
-    slave_select_pins = [23,24]
+    slave_select_pins = [23,24, 25, 8]
     GPIO.setmode(GPIO.BCM)
     GPIO.setup(slave_select_pins, GPIO.OUT, initial=GPIO.LOW)
     
